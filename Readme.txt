@@ -1,7 +1,6 @@
 AWS Credentials:
 
-access_key = "AKIAVYKKVOJBR65QHN4D"
-secret_key = "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"
+
 PEM key name is cloud.pem it's there in the app-tier folder
 
 URL: http://ec2-44-207-228-245.compute-1.amazonaws.com:5000
