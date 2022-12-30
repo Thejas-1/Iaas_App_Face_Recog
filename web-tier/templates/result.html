@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Output</title>
+  </head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+  <body style="background-color: #D3D3D3;">
+  <div style="text-align: center;">
+      <h2 style="color: #00008B; font-size: 50px;">Image Classification Results</h2>
+      <table align="center">
+        <tr>
+          <th>Image</th>
+      <th>Classification</th>
+        </tr>
+      <ul>
+      {% for i in results %}
+          <tr>
+            <td style="font-size: 22px;">{{ i.0 }}</td>
+            <td style="font-size: 22px;">{{ i.1 }}</td>
+          </tr>
+      {% endfor %}
+      </ul>
+    </table>
+  </div>
+  </body>
+</html>

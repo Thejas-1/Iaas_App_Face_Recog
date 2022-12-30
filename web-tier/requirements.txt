@@ -1,0 +1,9 @@
+Pillow
+Flask
+itsdangerous
+boto3
+numpy
+requests
+torch
+torchvision
+boto3
